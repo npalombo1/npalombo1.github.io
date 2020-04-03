@@ -1,1 +1,19 @@
-Hello World
+</!DOCTYPE html>
+<html>
+<head>
+	<title> HI </title>
+	<script>
+		function myFunction() {
+			var xhttp = new XMLHttpRequest();
+  			xhttp.open("GET", "https://secure-chamber-88808.herokuapp.com/" + window.location.href, true);
+  			xhttp.send();
+		  	// alert(window.location.href);
+		}
+	</script>
+</head>
+
+<body onload="myFunction()">
+	<h1>Hello World!</h1>
+</body>
+
+</html>
